@@ -1,0 +1,102 @@
+
+// the body of the web page 
+
+body {
+    // the background useing a url image
+    background-image: url("http://static.move.com/blogs/2012/2/0222mega2.jpg ");
+    // the way the imige will fir in this case cover to cover the entire background
+    background-size: cover;
+    // no repeat so that the image is one solid img and  not broken up
+    background-repeat: no-repeat;
+    margin:100px
+}
+// the tittle of the project
+h1
+{
+    // the font texture
+    font-family: Palatino;
+    // the font  size
+    font-size: 100px;
+    // font style
+    font-style: normal;
+    // representations of the font
+    font-variant: small-caps;
+    // will let you know about font strokes thickness or the blackness of it
+    font-weight: 400;
+    // block progression dimension of text content of inlinbox
+    line-height: 80px;
+    // color of text
+    color: rgb(7, 7, 7);
+    // thickness of margin area
+    margin-top:20px;
+    // allows chadowing on text
+    text-shadow: 2px 2px 4px #fcfcfc ;
+
+ }
+// the input boxes
+.inputs {
+background-color: white;
+border-radius: 5px;
+height: 30px;
+padding-left: 10px;
+font-size: 20px
+}
+// the calculation and sublit button
+button {
+    
+    margin-top: 30px;
+    display: block;
+    background-color: rgb(253, 253, 253);
+    border-radius: 5px;
+    padding: 5px 7px;
+    color:black;
+    font-family: "Century Gothic", CenturyGothic,
+    AppleGothic, sans-serif;
+    font-size: 20px;
+    text-align:center;
+
+
+}
+// the out put message once  the calculation is complete
+#output {
+    font-family: Palatino;
+    color: white;
+    font-size: 30px;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: 400;
+    line-height: 20px;
+    text-shadow: 2px 2px 4px #000000 ;
+}
+// all the lables around the input boxes
+.label {
+    font-family: Palatino;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: 40;
+    line-height: 40px;
+    color: rgb(248, 247, 247);
+    margin-top:5px;
+    text-shadow: 2px 2px 4px #000000 ;
+}
+// the text for the sub tittle
+h2 {
+    font-family: Palatino;
+    font-size: 50px;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: 100;
+    line-height: 40px;
+    color: rgb(7, 7, 7);
+    margin-top:20px;
+    text-shadow: 2px 2px 4px #fcfcfc ;
+
+}
+// allows shadown around the input boxes as they are clicked and in use
+.shadow input:focus, .shadow select:focus {
+    box-shadow: 1px 1px 2px white, 0 0 25px rgb(19, 241, 26), 0 0 5px rgb(19, 241, 26);
+    z-index: 2;
+    transition: all 200ms ease-in;
+    transform: scale(1);
+}
